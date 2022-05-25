@@ -1,4 +1,4 @@
-package com.javacourse.class15;
+package com.javacourse.class17;
 
 import java.util.Scanner;
 

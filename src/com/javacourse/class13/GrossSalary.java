@@ -13,7 +13,7 @@ public class GrossSalary {
 
         // Asks for the amount earned per hour.
         Scanner scan = new Scanner(System.in);
-        System.out.println("Enter your hourly wage.: ");
+        System.out.println("Enter your hourly wage: ");
         double hours = scan.nextDouble();
 
         // Ask for the number of hours worked per month.
@@ -22,8 +22,8 @@ public class GrossSalary {
 
         // Calcule the salary.
         double salary = hours * month;
-        double realtotal = total / 100;
-        double descont = salary - (realtotal * salary);
+        double realTotal = total / 100;
+        double descont = salary - (realTotal * salary);
 
         // Calculation of the value of each tax.
         double pensionCalc = (salary / 100) * pension;

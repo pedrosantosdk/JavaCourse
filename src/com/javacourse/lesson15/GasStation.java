@@ -6,15 +6,17 @@ public class GasStation {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+        // Full price.
         double ethanol = 1.90;
         double gasoline = 2.90;
 
+        // User input.
         System.out.println("Do you want to fill up ethanol or gasoline?");
         String choice = input.next();
-
         System.out.println("How many liters do you want to fill?");
         int liters = input.nextInt();
 
+        // Checks the chosen fuel and calculates the price.
         if (choice.equalsIgnoreCase("Ethanol")) {
             if (liters <= 20) {
                 double fill = ethanol * liters;

@@ -3,7 +3,7 @@ package com.javacourse.lesson17;
 public class Count {
     public static void main(String[] args) {
 
-        // Count from 1 to 20 with the numbers one under the other.
+        // Counts from 1 to 20 with the numbers one under the other.
         /*for(int i = 1; i <= 20; i++){
             System.out.println(i);
         }*/

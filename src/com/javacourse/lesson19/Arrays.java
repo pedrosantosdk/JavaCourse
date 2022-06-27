@@ -28,7 +28,7 @@ public class Arrays {
         System.out.println("Memory address: " + temperatures);
 
         // Shows all values inside the array:
-        for(int i = 0; i < temperatures.length; i++){
+        for (int i = 0; i < temperatures.length; i++){
             System.out.println("The temperature value of day " + (i+1) + " was: " + temperatures[i]);
         }
 

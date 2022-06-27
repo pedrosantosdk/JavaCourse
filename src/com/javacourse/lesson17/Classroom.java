@@ -15,11 +15,14 @@ public class Classroom {
             System.out.println("Enter the number of students: ");
             students += input.nextDouble();
         }
+
             double average = students / classes;
+
             if (average <= 40) {
             System.out.println("The average number of students per class is: " + average);
-        } else {
+            }
+            else {
             System.out.println("Error, the maximum number of students per room is 40 students.");
-        }
+            }
     }
 }

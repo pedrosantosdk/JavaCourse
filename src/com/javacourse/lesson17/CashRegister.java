@@ -16,13 +16,13 @@ public class CashRegister {
             System.out.println("Do you want to make a new purchase? (y/n)");
             String newPurchase = input.next();
 
-            if(newPurchase.equalsIgnoreCase("y")){
+            if (newPurchase.equalsIgnoreCase("y")){
                 output = "Walmart\n";
 
                 System.out.println("Enter the quantity of products:");
                 products = input.nextInt();
 
-                for(int i = 1; i <= products; i++) {
+                for (int i = 1; i <= products; i++) {
                     System.out.println("Enter the price of product " + i);
                     price = input.nextDouble();
                     getPrice += price;
@@ -41,6 +41,6 @@ public class CashRegister {
             } else if (newPurchase.equalsIgnoreCase("n")) {
                 out = true;
             }
-        }while(!out);
+        } while (!out);
     }
 }

@@ -18,13 +18,13 @@ public class Array02 {
             arrayB[i] = arrayA[i] * 2;
         }
         System.out.print("Array A = ");
-        for(int j : arrayA){
+        for (int j : arrayA){
             System.out.printf(j + " ");
         }
         System.out.println();
 
         System.out.print("Array B = ");
-        for(int k : arrayB){
+        for (int k : arrayB){
             System.out.printf(k + " ");
         }
         System.out.println();

@@ -1,34 +1,34 @@
 package com.javacourse.lesson19;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Array03 {
+public class Array04 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Creates an Array A with 15 integer elements and an Array B with the same type and size,
-        // where each element of B must be the square of the respective element of A.
         int[] arrayA = new int[15];
-        int[] arrayB = new int[arrayA.length];
+        double[] arrayB = new double[arrayA.length];
 
         for (int i = 0; i < arrayA.length; i++){
             System.out.println("Enter position number " + i + ":");
             arrayA[i] = input.nextInt();
-
-            arrayB[i] = arrayA[i] * arrayA[i];
+            arrayB[i] = Math.sqrt(arrayA[i]);
         }
 
         System.out.print("Array A = ");
 
-        for (int j : arrayA){
-            System.out.printf(j + " ");
+        for (int j: arrayA){
+            System.out.print(j + " ");
         }
+
         System.out.println();
 
-        System.out.print("Array B = ");
+        DecimalFormat df = new DecimalFormat("###,###.###");
 
-        for (int k : arrayB){
-            System.out.print(k + " ");
+        System.out.print("Array B = ");
+        for (int i = 0; i< arrayB.length; i++){
+            System.out.print(df.format(arrayB[i]) + " ");
         }
         System.out.println();
     }

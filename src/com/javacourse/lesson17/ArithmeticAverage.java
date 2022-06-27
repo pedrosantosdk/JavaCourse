@@ -11,7 +11,7 @@ public class ArithmeticAverage {
         System.out.println("Enter the quantity of grades: ");
         double grades = input.nextDouble();
 
-        for(int i = 0; i < grades; i++){
+        for (int i = 0; i < grades; i++){
             System.out.println("Enter a number: ");
             number += input.nextDouble();
 

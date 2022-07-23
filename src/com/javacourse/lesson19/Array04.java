@@ -10,6 +10,7 @@ public class Array04 {
         int[] arrayA = new int[15];
         double[] arrayB = new double[arrayA.length];
 
+        // Each element in Array B is the square root of the respective element in Array A.
         for (int i = 0; i < arrayA.length; i++){
             System.out.println("Enter position number " + i + ":");
             arrayA[i] = input.nextInt();

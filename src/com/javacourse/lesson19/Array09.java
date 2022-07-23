@@ -11,6 +11,7 @@ public class Array09 {
         int[] arrayB = new int[arrayA.length];
         int[] arrayC = new int[arrayA.length];
 
+        // Array C is the division of the respective elements into Array A and B.
         for (int i = 0; i < arrayA.length; i++){
             System.out.println("ArrayA = Enter position number " + i + ":");
             arrayA[i] = input.nextInt();

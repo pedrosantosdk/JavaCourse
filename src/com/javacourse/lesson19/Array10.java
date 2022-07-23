@@ -10,6 +10,7 @@ public class Array10 {
         int[] arrayA = new int[10];
         int[] arrayB = new int[arrayA.length];
 
+        // Each element of Array B is the remainder of dividing Array A by 2.
         for (int i = 0; i < arrayA.length; i++){
             System.out.println("Enter position number " + i + ":");
             arrayA[i] = input.nextInt();
